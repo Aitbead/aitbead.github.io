@@ -1,0 +1,46 @@
+:root {
+	font-family: Tahoma, sans-serif;
+	--header-textsize: ;
+	--header-padding: 15px;
+	--breadcrumb-textsize: ;
+	--breadcrumb-padding: 15px;
+	--sidebar-textsize: ;
+	--sidebar-collapsed: 60px;
+	--sidebar-expanded: 200px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+.header-title {
+	text-align: center;
+	padding: var(--header-padding);
+	background-color: #FFFF00;
+}
+
+.breadcrumb-bar {
+	padding: var(--breadcrumb-padding);
+	background-color: #FFFFFF;
+	border: solid;
+	border-color: #888800;
+	border-radius: 10px;
+}
+
+aside {
+	background-color: #FFFF88;
+}
+
+main {
+	
+}
+
+footer {
+	
+}
