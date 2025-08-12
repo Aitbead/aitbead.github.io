@@ -33,7 +33,7 @@ body {
 	border-radius: 10px;
 }
 
-aside {
+.sidemenu {
 	background-color: #FFFF88;
 }
 
@@ -43,4 +43,5 @@ main {
 
 footer {
 	
+
 }
