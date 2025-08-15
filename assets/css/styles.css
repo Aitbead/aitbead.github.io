@@ -21,7 +21,7 @@ body {
 
 .header-title {
 	text-align: center;
-	font-size: 8vw;
+	font-size: 7.5vw;
 	font-weight: bold;
 	padding: var(--header-padding);
 	background-color: #FFFF00;
