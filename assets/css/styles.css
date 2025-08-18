@@ -24,7 +24,7 @@ body {
 	font-size: 5vw;
 	font-weight: bold;
 	padding: var(--header-padding);
-	background-color: #FFFF00;
+	background-image: linear-gradient(to right,#7F7FFF,#FFFF7F,#7F7FFF);
 }
 
 .breadcrumb-bar {
