@@ -20,6 +20,7 @@ body {
 }
 
 .header-title {
+	color: white;
 	text-align: center;
 	font-size: 5vw;
 	font-weight: bold;
@@ -47,3 +48,4 @@ footer {
 	
 
 }
+
