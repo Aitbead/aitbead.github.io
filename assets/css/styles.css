@@ -31,7 +31,7 @@ body {
 .breadcrumb-bar {
 	box-sizing: border-box;
 	padding: var(--breadcrumb-padding);
-	background-color: #FFFFFF;
+	background-color: #FFFF00;
 	border: solid;
 	border-color: #888800;
 	border-radius: 10px;
@@ -52,6 +52,7 @@ footer {
 	
 
 }
+
 
 
 
