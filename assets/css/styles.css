@@ -38,6 +38,7 @@ body {
 
 .sidemenu {
 	background-color: #FFFF88;
+	float: left;
 }
 
 main {
@@ -48,5 +49,6 @@ footer {
 	
 
 }
+
 
 
