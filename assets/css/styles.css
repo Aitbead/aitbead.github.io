@@ -38,6 +38,7 @@ body {
 
 .sidemenu {
 	padding: 15px;
+	height: auto;
 	background-color: #FFFF88;
 	float: left;
 }
@@ -50,6 +51,7 @@ footer {
 	
 
 }
+
 
 
 
