@@ -28,7 +28,7 @@ body {
 	background-image: linear-gradient(to right,#7F7FFF,#7F7FFF,#FF7F7F,#FF7F7F,#60C060,#60C060,#FFFF7F,#FFFF7F);
 }
 
-.breadcrumb-bar {
+.breadcrumb {
 	box-sizing: border-box;
 	padding: 15px;
 	background-color: #FFFF00;
@@ -52,6 +52,7 @@ footer {
 	
 
 }
+
 
 
 
