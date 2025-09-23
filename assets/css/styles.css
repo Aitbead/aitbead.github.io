@@ -12,13 +12,15 @@ body {
 	
 }
 
-.header-title {
+.head {
+	display: flex;
 	color: white;
 	text-align: center;
 	font-size: 5vw;
 	font-weight: bold;
 	padding: 15px;
-	background-image: linear-gradient(to right,#5f5fbf,#5f5fbf,#bf5f5f,#bf5f5f,#5fbf5f,#5fbf5f,#bfbf5f,#bfbf5f);
+	background-image: linear-gradient(to right,#5f5fbf,#bf5f5f,#bf5f5f,#5fbf5f,#5fbf5f,#bfbf5f,#bfbf5f,#5f5fbf);
+  	animation: gradientShift 20s linear infinite;
 }
 
 .grid {
@@ -51,6 +53,7 @@ body {
 .footer {
 	
 }
+
 
 
 
