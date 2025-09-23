@@ -24,13 +24,13 @@ body {
 	text-align: center;
 	font-size: 5vw;
 	font-weight: bold;
-	padding: var(--header-padding);
+	padding: 15px;
 	background-image: linear-gradient(to right,#7F7FFF,#FF7F7F,#60C060,#FFFF7F);
 }
 
 .breadcrumb-bar {
 	box-sizing: border-box;
-	padding: var(--breadcrumb-padding);
+	padding: 15px;
 	background-color: #FFFF00;
 	border: solid;
 	border-color: #888800;
@@ -52,6 +52,7 @@ footer {
 	
 
 }
+
 
 
 
