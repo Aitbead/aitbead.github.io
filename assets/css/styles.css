@@ -1,12 +1,5 @@
 :root {
 	font-family: Tahoma, sans-serif;
-	--header-textsize: ;
-	--header-padding: 15px;
-	--breadcrumb-textsize: ;
-	--breadcrumb-padding: 15px;
-	--sidebar-textsize: ;
-	--sidebar-collapsed: 60px;
-	--sidebar-expanded: 200px;
 }
 
 * {
@@ -31,7 +24,7 @@ body {
 .grid {
 	display: grid;
 	grid-template-columns: 50px 1fr;
-	min-height: auto;
+	min-height: 100%;
 	grid-gap: 0px;
 }
 
@@ -47,7 +40,7 @@ body {
 .sidemenu {
 	padding: 15px;
 	height: auto;
-	background-color: #FF0000;
+	background-color: #FF00FF;
 	float: left;
 }
 
@@ -59,6 +52,7 @@ footer {
 	
 
 }
+
 
 
 
