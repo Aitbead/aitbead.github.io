@@ -19,7 +19,7 @@ body {
 	font-size: 5vw;
 	font-weight: bold;
 	padding: 15px;
-	background-image: linear-gradient(to right,#7F7FFF,#FF7F7F,#FF7F7F,#7FFF7F,#7FFF7F,#FFFF7F,#FFFF7F,#7F7FFF);
+	background-image: linear-gradient(to right,#7F7FFF,#FF7F7F,#FF7F7F,#5FBF5F,#5FBF5F,#FFFF7F,#FFFF7F,#7F7FFF);
   	animation: gradientShift 20s linear infinite;
 }
 
@@ -62,6 +62,7 @@ body {
 .footer {
 	
 }
+
 
 
 
