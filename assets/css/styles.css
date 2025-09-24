@@ -26,10 +26,10 @@ body {
 }
 
 @keyframes gradientShift {
-	0% {
+	from {
     	background-position: 0% 50%;
   	}
-	100% {
+	to {
     	background-position: 100% 50%;
   	}
 }
@@ -64,6 +64,7 @@ body {
 .footer {
 	
 }
+
 
 
 
