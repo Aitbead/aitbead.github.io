@@ -33,14 +33,14 @@ header {
 	background-image: linear-gradient(to right,#7F7FFF,#FF7F7F,#5FBF5F,#FFFF7F,#7F7FFF,#FF7F7F,#5FBF5F,#FFFF7F,#7F7FFF);
 	background-size: 200%;
   	animation: gradientShift 60s linear infinite;
-	@keyframes gradientShift {
-		from {
-			background-position: 0%;
-		}
-		to {
-	    	background-position: 100%;
- 	 	}
+}
+@keyframes gradientShift {
+	from {
+		background-position: 0%;
 	}
+	to {
+    	background-position: 100%;
+ 	}
 }
 
 .sidemenu {
@@ -96,6 +96,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
