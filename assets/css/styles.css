@@ -50,7 +50,7 @@ header {
 	height: auto;
 	background-color: #DFDFDF;
 	float: left;
-	sidemenunav {
+	.sidemenunav {
 		list-style: none;
 	}
 }
@@ -74,6 +74,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
