@@ -49,6 +49,9 @@ header {
 	height: auto;
 	background-color: #DFDFDF;
 	float: left;
+	sidemenunav {
+		list-style: none;
+	}
 }
 
 .breadcrumb {
@@ -68,6 +71,7 @@ main {
 footer {
 	grid-area: footer;
 }
+
 
 
 
