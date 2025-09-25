@@ -3,3 +3,4 @@ function toggleMenu() {
   sidemenu.classList.toggle('expanded');
   sidemenu.classList.toggle('collapsed');
 }
+
