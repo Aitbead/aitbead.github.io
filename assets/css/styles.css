@@ -53,6 +53,9 @@ header {
 	.sidemenunav {
 		list-style: none;
 	}
+	li {
+		padding: 15px;
+	}
 }
 
 .breadcrumb {
@@ -74,6 +77,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
