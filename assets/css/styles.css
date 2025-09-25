@@ -9,7 +9,12 @@
 }
 
 body {
-	
+	display: grid;
+	grid-template-areas:
+		"header	header"
+		"sidemenu	breadcrumb"
+		"sidemenu	main"
+		"footer	footer";
 }
 
 header {
@@ -61,3 +66,4 @@ main {
 footer {
 	
 }
+
