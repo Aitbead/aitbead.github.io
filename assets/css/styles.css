@@ -60,7 +60,7 @@ header {
 	}
 	.bar {
   		position: absolute;
- 		width: 100%;
+ 		width: 40px;
   		height: 4px;
   		background-color: #000000;
   		transition: all 0.3s ease;
@@ -91,6 +91,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
