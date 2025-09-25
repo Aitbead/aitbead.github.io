@@ -35,6 +35,9 @@ header {
 }
 
 @keyframes gradientShift {
+	from {
+		background-position: 0%;
+	}
 	to {
     	background-position: 100%;
   	}
@@ -65,4 +68,5 @@ main {
 footer {
 	grid-area: footer;
 }
+
 
