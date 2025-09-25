@@ -18,6 +18,7 @@ body {
 }
 
 header {
+	grid-area: header;
 	display: flex;
 	color: white;
 	align-items: center;
@@ -43,7 +44,16 @@ header {
 	grid-gap: 0px;
 }
 
+.sidemenu {
+	grid-area: sidemenu;
+	padding: 15px;
+	height: auto;
+	background-color: #DFDFDF;
+	float: left;
+}
+
 .breadcrumb {
+	grid-area: breadcrumb;
 	box-sizing: border-box;
 	padding: 15px;
 	background-color: #FFFF00;
@@ -52,18 +62,10 @@ header {
 	border-radius: 10px;
 }
 
-.sidemenu {
-	padding: 15px;
-	height: auto;
-	background-color: #DFDFDF;
-	float: left;
-}
-
 main {
-	
+	grid-area: main;
 }
 
 footer {
-	
+	grid-area: footer;
 }
-
