@@ -67,9 +67,9 @@ header {
   		transform-origin: center;
   		border-radius: 2px;
 	}
-	.bar1 { top: 6px; }
-	.bar2 { top: 13px; }
-	.bar3 { top: 20px; }
+	.top { top: 6px; }
+	.mid { top: 13px; }
+	.bot { top: 20px; }
 }
 
 .breadcrumb {
@@ -91,6 +91,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
