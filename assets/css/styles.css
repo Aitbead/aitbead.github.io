@@ -17,6 +17,7 @@ body {
 		"footer	footer";
 	grid-gap: 0px;
 	grid-template-columns: max-content 1fr;
+	grid-template-rows: max-content max-content 1fr max-content;
 	min-height: 100%;
 }
 
@@ -71,6 +72,7 @@ main {
 footer {
 	grid-area: footer;
 }
+
 
 
 
