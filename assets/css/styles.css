@@ -58,6 +58,18 @@ header {
 	button {
 		text-align: center;
 	}
+	.bar {
+  		position: absolute;
+ 		width: 100%;
+  		height: 4px;
+  		background-color: #000000;
+  		transition: all 0.3s ease;
+  		transform-origin: center;
+  		border-radius: 2px;
+	}
+	.bar1 { top: 6px; }
+	.bar2 { top: 13px; }
+	.bar3 { top: 20px; }
 }
 
 .breadcrumb {
@@ -79,6 +91,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
