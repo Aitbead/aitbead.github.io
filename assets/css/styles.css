@@ -23,7 +23,7 @@ body {
 
 header {
 	grid-area: header;
-	display: flex;
+	/* display: flex; */
 	color: white;
 	align-items: center;
 	justify-content: center;
@@ -101,5 +101,6 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
