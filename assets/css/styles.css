@@ -36,14 +36,6 @@ header {
 	background-size: 200%;
   	animation: gradientShift 60s linear infinite;
 }
-@keyframes gradientShift {
-	from {
-		background-position: 0%;
-	}
-	to {
-    	background-position: 100%;
- 	}
-}
 
 .sidemenu {
 	grid-area: sidemenu;
@@ -99,20 +91,11 @@ footer {
 	padding: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes gradientShift {
+	from {
+		background-position: 0%;
+	}
+	to {
+    	background-position: 100%;
+ 	}
+}
