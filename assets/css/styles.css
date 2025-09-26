@@ -27,8 +27,10 @@ header {
 	color: white;
 	align-items: center;
 	justify-content: center;
-	font-size: 5vw;
-	font-weight: bold;
+	.headertitle {
+		font-size: 5vw;
+		font-weight: bold;
+	}
 	padding: 15px;
 	background-image: linear-gradient(to right,#7F7FFF,#FF7F7F,#5FBF5F,#FFFF7F,#7F7FFF,#FF7F7F,#5FBF5F,#FFFF7F,#7F7FFF);
 	background-size: 200%;
@@ -96,6 +98,7 @@ footer {
 	grid-area: footer;
 	padding: 15px;
 }
+
 
 
 
