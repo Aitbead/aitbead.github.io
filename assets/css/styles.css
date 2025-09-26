@@ -28,6 +28,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	font-size: 1vw;
+	font-weight: thin;
 	.headertitle {
 		font-size: 5vw;
 		font-weight: bold;
@@ -100,4 +101,5 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
