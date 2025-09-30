@@ -1,6 +1,5 @@
-function toggleMenu() {
-  const sidemenu = document.querySelector('.sidemenu');
-  sidemenu.classList.toggle('expanded');
-  sidemenu.classList.toggle('collapsed');
+function expand(x) {
+  x.classList.toggle("hamburger");
 }
+
 
