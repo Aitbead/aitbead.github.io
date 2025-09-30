@@ -60,7 +60,7 @@ header {
 .kebab {
 	display: inline-block;
 	cursor: pointer;
-	align-items: center;
+	margin: auto;
 }
 
 .dot {
