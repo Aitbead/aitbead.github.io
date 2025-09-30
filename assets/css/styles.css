@@ -72,6 +72,9 @@ header {
 	.bot {
 		top: 20px;
 	}
+	.sidemenulabel {
+		display: none;
+	}
 }
 
 .breadcrumb {
@@ -102,6 +105,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
