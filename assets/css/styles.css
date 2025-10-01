@@ -76,6 +76,10 @@ header {
 	width: 25px;
 }
 
+.showlabel {
+	display: block;
+}
+
 .breadcrumb {
 	grid-area: breadcrumb;
 	box-sizing: border-box;
@@ -104,6 +108,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
