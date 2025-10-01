@@ -53,7 +53,7 @@ header {
 		padding: 15px;
 		cursor: pointer;
 	}
-	.sidemenulabel {
+	.hidelabel {
 		display: none;
 	}
 }
@@ -104,6 +104,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
