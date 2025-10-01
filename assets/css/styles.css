@@ -51,6 +51,7 @@ header {
 	}
 	li {
 		padding: 15px;
+		cursor: pointer;
 	}
 	.sidemenulabel {
 		display: none;
@@ -59,9 +60,7 @@ header {
 
 .kebab {
 	display: inline-block;
-	cursor: pointer;
-	padding: 15px;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .dot {
@@ -105,5 +104,6 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
