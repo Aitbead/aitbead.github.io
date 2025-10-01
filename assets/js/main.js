@@ -1,7 +1,10 @@
 function expand(x, y) {
   x.classList.toggle("hamburger");
-  y.classList.toggle("showlabel");
+  document
+    .querySelectorAll(`.${y}`)
+    .forEach(label => label.classList.toggle('showlabel'));
 }
+
 
 
 
