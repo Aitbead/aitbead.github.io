@@ -73,7 +73,7 @@ header {
 }
 
 .hamburger .dot {
-	width: 25px
+	width: 25px;
 }
 
 .breadcrumb {
@@ -104,3 +104,4 @@ footer {
     	background-position: 100%;
  	}
 }
+
