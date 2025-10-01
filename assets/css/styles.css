@@ -67,6 +67,7 @@ header {
 .dot {
 	width: 5px;
 	height: 5px;
+	border-radius: 2.5px;
 	background-color: #000000;
 	margin: 5px 0;
 	transition: 0.5s;
@@ -104,4 +105,5 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
