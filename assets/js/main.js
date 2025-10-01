@@ -1,5 +1,6 @@
-function expand(x) {
-  x.classList.toggle("hamburger");
+function expand() {
+  classList.toggle("hamburger");
 }
+
 
 
