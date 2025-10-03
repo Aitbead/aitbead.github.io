@@ -4,9 +4,10 @@ function expand(x, y) {
     .querySelectorAll(`.${y}`)
     .forEach(showtext);
     function showtext(z) {
-      z.classList.toggle('showlabel'));
+      z.classList.toggle('showlabel');
     }
 }
+
 
 
 
