@@ -1,6 +1,9 @@
 function expand(x, y) {
   x.classList.toggle("hamburger");
-  document.getElementsByClassName(y).classList.toggle("showlabel");
+  document.querySelectorAll('.hidelabel, .showlabel').forEach(label => {
+  label.classList.toggle('hidelabel');
+  label.classList.toggle('showlabel');
+  });
 }
 
 
