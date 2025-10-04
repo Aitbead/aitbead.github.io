@@ -55,6 +55,7 @@ header {
 	}
 	.hidelabel {
 		display: none;
+		paddin-left: 5px;
 	}
 }
 
