@@ -23,7 +23,6 @@ body {
 
 header {
 	grid-area: header;
-	/* display: flex; */
 	color: white;
 	text-align: center;
 	align-items: center;
@@ -75,6 +74,10 @@ header {
 	width: 25px;
 }
 
+.sidemenuicon {
+	font-size: 25px;
+}
+
 .hidelabel {
 	display: none;
 	paddin-left: 5px;
@@ -112,6 +115,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
