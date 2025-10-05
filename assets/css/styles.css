@@ -55,16 +55,19 @@ header {
 	}
 }
 
-.kebab .dot {
+.kebab {
 	display: inline-flex;
-	flex-direction: column;
+  	flex-direction: column;
   	align-items: center;
-  	gap: 5px; 
-	width: 5px;
+  	gap: 5px;
+}
+
+.kebab .dot {
+	display: block;
+  	width: 5px;
   	height: 5px;
-  	border-radius: 2.5px;
-  	background-color: #000000;
-  	margin: 5px 0;
+  	border-radius: 50%;
+  	background: #000000;
   	transition: 0.5s;
 }
 
@@ -109,6 +112,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
