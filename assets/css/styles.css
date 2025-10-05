@@ -64,7 +64,7 @@ header {
 	/* justify-content: center; */
 }
 
-.dot {
+.kebab .dot {
 	width: 5px;
 	height: 5px;
 	border-radius: 2.5px;
@@ -109,6 +109,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
