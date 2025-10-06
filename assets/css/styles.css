@@ -51,7 +51,7 @@ header {
 	li {
 		padding: 10px;
 		cursor: pointer;
-		vertical-align: baseline;
+		vertical-align: center;
 	}
 }
 
