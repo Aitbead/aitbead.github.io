@@ -86,6 +86,7 @@ header {
 	display: none;
 	paddin-left: 5px;
 	vertical-align: middle;
+	transition: 0.5s;
 }
 
 .showlabel {
