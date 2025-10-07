@@ -52,6 +52,7 @@ header {
 		padding: 10px;
 		cursor: pointer;
 	}
+	transition: 0.5s;
 }
 
 .kebab {
@@ -86,7 +87,6 @@ header {
 	display: none;
 	paddin-left: 5px;
 	vertical-align: middle;
-	transition: 0.5s;
 }
 
 .showlabel {
@@ -121,6 +121,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
