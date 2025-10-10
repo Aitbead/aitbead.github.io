@@ -79,6 +79,7 @@ header {
 }
 
 .sidemenuicon {
+	font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
 	font-size: 25px;
 	vertical-align: middle;
 }
@@ -121,6 +122,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
