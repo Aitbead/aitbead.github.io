@@ -7,7 +7,7 @@ function expand(x) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".auto-link").forEach(link => {
+  document.querySelectorAll(".autolink").forEach(link => {
     let text = link.textContent.trim();
     let slug = text
         .toLowerCase()
@@ -16,3 +16,4 @@ document.addEventListener("DOMContentLoaded", () => {
     link.href = "/" + slug + "/index.html";
   });
 });
+
