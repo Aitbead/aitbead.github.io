@@ -6,9 +6,11 @@ function expand(x) {
   });
 }
 
+const slugCounts = {};
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".autolink").forEach(link => {
-    let text = link.textContent.trim();
+    let text = link.textContent.trim().normalize("NFD");
+    text = text.replace(/[\u0300-\u036f]/g, '');
     let slug = text
         .toLowerCase()
         .replace(/[\s\W]+/g, "-")
@@ -16,4 +18,5 @@ document.addEventListener("DOMContentLoaded", () => {
     link.href = "/" + slug + "/index.html";
   });
 });
+
 
