@@ -93,6 +93,8 @@ header {
 	font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
 	font-size: 25px;
 	vertical-align: middle;
+	width: 35px;
+	height: 35px;
 }
 
 .hidelabel {
@@ -133,6 +135,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
