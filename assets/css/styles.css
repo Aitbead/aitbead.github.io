@@ -48,6 +48,12 @@ header {
 	.sidemenunav {
 		list-style: none;
 	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		background-color: #FFFFFF;
+	}
 	li {
 		padding: 10px;
 		cursor: pointer;
@@ -122,6 +128,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
