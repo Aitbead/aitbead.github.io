@@ -15,9 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLowerCase()
       .replace(/[\s\W]+/g, "-")
       .replace(/^-+|-+$/g, "")
-      .replace(/^home$/, '');
+      .replace(/^home$/, "");
     link.href = "/" + slug;
   });
 });
+
 
 
