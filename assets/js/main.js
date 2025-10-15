@@ -1,8 +1,8 @@
 function expand(x) {
   x.classList.toggle("hamburger");
   document.querySelectorAll(".hidelabel, .showlabel").forEach(label => {
-  label.classList.toggle("hidelabel");
-  label.classList.toggle("showlabel");
+    label.classList.toggle("hidelabel");
+    label.classList.toggle("showlabel");
   });
 }
 
@@ -18,10 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/^home$/, "");
     link.href = "/" + slug;
     if (link.href === currentPath) {
-      link.classList.add('active');
+      document.querySelectorAll(".hidelabel, .showlabel").forEach(label => {
+        label.classList.add("active");
+      });
     }
   });
 });
+
 
 
 
