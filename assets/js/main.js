@@ -14,7 +14,7 @@ function slugify(text) {
   return normalized
     .toLowerCase()
     .replace(/[\s\W]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/^-+|-+$/g, '')
     .replace(/^home$/, "");
 }
 
@@ -31,3 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
     link.setAttribute('href', `/${slug}`);
   });
 });
+
