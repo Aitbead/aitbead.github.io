@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/^home$/, "");
     link.href = "/" + slug;
     if (link.href === currentPath) {
-      document.querySelectorAll(".hidelabel, .showlabel").forEach(label => {
-        label.classList.add("active");
-      });
+      const parentLi = link.closest('li');
+      if (parentLi) parentLi.classList.add('active');
     }
   });
 });
+
 
 
 
