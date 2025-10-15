@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/^-+|-+$/g, "")
       .replace(/^home$/, "");
     link.href = "/" + slug;
-    if (href === currentPath) {
+    if (link.href === currentPath) {
       link.classList.add('active');
   });
 });
+
 
