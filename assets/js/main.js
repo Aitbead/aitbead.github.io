@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     link.href = "/" + slug;
     if (link.href === currentPath) {
       link.classList.add('active');
+    }
   });
 });
+
 
 
