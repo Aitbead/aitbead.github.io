@@ -107,6 +107,11 @@ header {
 	display: inline-block;
 }
 
+.autolink.active {
+	background-color: black;
+	font-weight: bold;
+}
+
 .breadcrumb {
 	grid-area: breadcrumb;
 	box-sizing: border-box;
@@ -135,6 +140,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
