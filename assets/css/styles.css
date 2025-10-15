@@ -107,7 +107,7 @@ header {
 	display: inline-block;
 }
 
-.autolink.active {
+.active {
 	background-color: black;
 	font-weight: bold;
 }
@@ -140,6 +140,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
