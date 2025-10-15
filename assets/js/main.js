@@ -7,6 +7,7 @@ function expand(x) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
   document.querySelectorAll(".autolink").forEach(link => {
     let text = link.textContent.trim().normalize("NFD");
     text = text.replace(/[\u0300-\u036f]/g, '');
@@ -16,5 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/^-+|-+$/g, "")
       .replace(/^home$/, "");
     link.href = "/" + slug;
+    if (href === currentPath) {
+      link.classList.add('active');
   });
 });
+
