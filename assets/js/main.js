@@ -7,10 +7,10 @@ function expand(x) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+  const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
   document.querySelectorAll(".autolink").forEach(link => {
     let text = link.textContent.trim().normalize("NFD");
-    text = text.replace(/[\u0300-\u036f]/g, '');
+    text = text.replace(/[\u0300-\u036f]/g, "");
     let slug = text
       .toLowerCase()
       .replace(/[\s\W]+/g, "-")
@@ -18,11 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/^home$/, "");
     link.href = "/" + slug;
     if (link.href === currentPath) {
-      const parentLi = link.closest('li');
-      if (parentLi) parentLi.classList.add('active');
+      const innerLi = link.closest("li");
+      if (innerLi) innerLi.classList.add("active");
     }
   });
 });
+
 
 
 
