@@ -16,16 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/[\s\W]+/g, "-")
       .replace(/^-+|-+$/g, "")
       .replace(/^home$/, "");
-    link.href = "/" + slug;
-    if (link.href === currentPath) {
-      const innerLi = link.closest("li");
-      if (innerLi) innerLi.classList.add("active");
+    const hrefValue = slug ? `/${slug}` : "/";
+    link.setAttribute("href", hrefValue);
+    if (hrefValue === currentPath) {
+      const parentLi = link.closest("li");
+      if (parentLi) parentLi.classList.add("active");
     }
   });
 });
-
-
-
-
-
-
