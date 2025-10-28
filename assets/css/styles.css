@@ -59,6 +59,7 @@ header {
 	li {
 		padding: 10px;
 		cursor: pointer;
+		border-radius: 10px;
 	}
 	li:hover {
 		background-color: #FFFFFF;
@@ -140,6 +141,7 @@ footer {
     	background-position: 100%;
  	}
 }
+
 
 
 
